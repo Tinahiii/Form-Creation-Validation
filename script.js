@@ -1,12 +1,13 @@
 // Wait for the entire HTML document to be loaded before running the script.
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', () => { // Using an arrow function here
 
     // Select the form and the feedback div from the DOM.
     const form = document.getElementById('registration-form');
     const feedbackDiv = document.getElementById('form-feedback');
 
     // Add an event listener for the form's 'submit' event.
-    form.addEventListener('submit', (event) => {
+    form.addEventListener('submit', (event) => { // Using an arrow function here
+        
         // Prevent the form's default submission behavior (reloading the page).
         event.preventDefault();
 
