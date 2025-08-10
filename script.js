@@ -53,8 +53,8 @@ document.addEventListener('DOMContentLoaded', () => { // Using an arrow function
         } else {
             // If there are errors, join the messages and display them.
             feedbackDiv.innerHTML = messages.join('<br>');
-            feedbackDiv.style.color = '#d8000c'; // Red color for errors
-            feedbackDiv.style.backgroundColor = '#ffbaba'; // Light red background
+            feedbackDiv.style.color = '#dc3545'; // Corrected red color for errors 🔴
+            feedbackDiv.style.backgroundColor = '#f8d7da'; // Light red background
         }
     });
 });
